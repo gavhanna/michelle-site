@@ -1,0 +1,43 @@
+// @import "_normalize.min";
+//
+// body {
+//   display: flex;
+//   justify-content: center;
+//   font-family: "Josefin Sans";
+// }
+//
+// .wrapper {
+//   width: 1200px;
+//   min-height: 100vh;
+//   background: salmon;
+// }
+//
+// .top-bar {
+//   background: skyblue;
+//   display: flex;
+//   justify-content: space-around;
+//   nav ul {
+//     display: flex;
+//     padding: 0;
+//     li {
+//       padding: 10px;
+//       list-style: none;
+//     }
+//   }
+//   .logo img {
+//     width: 250px;
+//   }
+// }
+
+.wrapper, .logo {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+img {
+  width: 300px;
+  margin: 0 auto;
+}
